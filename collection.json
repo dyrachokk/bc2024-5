@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "80791073-b141-4398-8c70-5f42713110f6",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40017261"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:3000/notes",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "note_name",
+							"value": "dyrachokk",
+							"description": "123412412412412",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "note",
+							"value": "This is a note",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "note_name",
+							"value": "Makysm",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "note_name",
+							"value": "Denis",
+							"type": "text"
+						},
+						{
+							"key": "note",
+							"value": "Baglay",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/notes",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"notes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/notes",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "note_name",
+							"value": "dyrachokk",
+							"description": "123412412412412",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "note",
+							"value": "This is a note",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "note_name",
+							"value": "Makysm",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "note_name",
+							"value": "Denis",
+							"type": "text"
+						},
+						{
+							"key": "note",
+							"value": "Baglay",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/notes",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"notes"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
